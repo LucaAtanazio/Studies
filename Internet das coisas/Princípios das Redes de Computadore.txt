@@ -1,0 +1,54 @@
+	Princípios das Redes de Computadores
+
+	Comunicação de Dados
+		- Troca de dados entre dois dispositivos por intermédio de algum tipo de meio de transmissão
+		- Combinação de HARDWARE (Equipamentos físicos) e SOFTWARE (Programas)
+
+	Eficácia de um Sistema de Comunicação de Dados
+		- Entrega: Sistema deve entregar os dados somente no destino correto
+		- Precisão: Dados que foram alterados na transmissão são inúteis
+		- Sincronização: Sistema deve entregar os dados no momento certo
+		- Jitter: Variação do atraso no tempo de chegada dos pacotes -- Se em uma chamada, alguns pacotes chegam em 30 ms, outros em 80 ms, e outros em 50 ms,				 essa variação é o JITTER
+
+	Cinco componentes da comunicação de dados
+		- Mensagem: Informações (dados) a serem transmitidas
+		- Emissor: Dispositivo que envia a mensagem
+		- Receptor: Dispositivo que recebe a mensagem
+		- Meio de transmissão: Caminho físico pelo qual uma mensagem trafega do emissor ao receptor
+		- Protocolo: Conjunto de regras que controla a comunicação de dados. Acordo entre os dispositivos de comunicação. Sem um protocolo, dois dispositivos 				podem estar conectados, mas, sem se comunicar
+
+	Fluxo de dados
+		- Simplex: Transmissão unidirecional.
+		- Half-Duplex: Transmissão bidirecional alternada.
+		- Full-Duplex: Transmissão bidirecional simultânea. 
+
+	Rede de Computadores
+		Interligação de um conjunto de dispositivos capazes de se comunicar, compartilhar recursos e informações
+
+	Equipamentos de Rede
+		- Host: Servidor, desktop, laptop, etc.
+		- Modem: (Modulador - demodulador) que altera a forma dos dados
+		- Roteadores: Interconectam redes diferentes
+		- Switches: Conectam dispositivos dentro da mesma rede
+		- Pontos de Acesso (Access Points): Suporte para redes sem fio
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

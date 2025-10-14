@@ -1,0 +1,18 @@
+1. Nº 7
+ Contexto possível: dias da semana.
+ Pergunta: como medir produtividade ou vendas em cada um dos 7 dias?
+
+
+Número: Nº 7
+Contexto escolhido: dias da semana.
+1. Nome do KPI: Produtividade e vendas semanais na empresa
+2. Fórmula do KPI: Produtividade = (Vendas individuais/ Meta semanal) * 100
+3. Unidade: dias
+4. Meta (target): Registrar e qualificar a produtividade das vendas
+5. Frequência de medição: semanal
+6. Fonte de dados: Banco de dado da empresa/Planilha de vendas
+7. Intervalo de referência / Benchmark: 7 dias
+8. Interpretação / Ações quando fora do esperado:
+ Se abaixo do target: Promover medidas para melhores resultados da equipe de vendas
+ Se acima do target: Premiações e melhores engajamentos para incentivar o esforço dos individos
+9. Observações / Limitações dos dados: Necessidade para backups para reciclagem de históricos anteriores ao período de 30 dias no banco de dados da empresa

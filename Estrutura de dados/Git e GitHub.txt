@@ -1,0 +1,30 @@
+Git e GitHub
+
+Controle de Versão
+- Histórico de alterações no código
+- Permite voltar no tempo
+- Facilita colaboração
+- Evita sobrescrever código dos colegas
+	*Sem Git, projetos viram confusão de arquivos
+		'versao_final_final2.zip'
+
+GitHub
+- Hospedagem de repositórios Git
+- Gerencia tarefas (issues) e documentação
+
+Git = Ferramenta local de controle de versão
+GitHub = Plataforma online para hospedagem e colaboração
+
+Fluxo Básico de trabalho
+1. inserir dados  
+2. git add (ADCIONA  MUDANÇAS)
+3. git commit (SALVA NO HISTORICO)
+4. git push (ENVIA AO GitHub)
+
+
+CONFIGURAÇÃO INICIAL
+git config --global user.name "Seu Nome" 
+git config --global user.name "Seu email"
+
+
+ADICIONAR E COMITIR
