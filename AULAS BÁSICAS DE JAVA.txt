@@ -1,0 +1,191 @@
+AULAS BÁSICAS DE JAVA
+
+OBJETIVO GERAL:
+Entender os fundamentos da programação em Java, focando na lógica de programação e na sintaxe básica da linguagem, preparando para projetos mais complexos.
+
+MATERIAL NECESSÁRIO:
+- Computador com Windows/macOS/Linux
+- Java Development Kit (JDK) instalado (versão LTS recomendada: Java 11, 17 ou 21)
+- Visual Studio Code (VS Code) instalado
+- Extension Pack for Java (Microsoft) para VS Code
+
+---------------------------------------------------
+
+AULA 1: INTRODUÇÃO E AMBIENTE
+
+1.1. O que é Programação e Lógica de Programação
+    - Conceitos básicos: algoritmo, instruções, passo a passo.
+    - Como o computador "pensa" (binário, 0s e 1s).
+
+1.2. O que é Java?
+    - Linguagem de alto nível, orientada a objetos.
+    - Plataforma independente (JVM - Java Virtual Machine).
+    - Usos comuns do Java (aplicativos desktop, web, mobile - Android, Big Data).
+
+1.3. Configuração do Ambiente de Desenvolvimento
+    - Instalação do JDK (revisão da instalação).
+    - Instalação do Visual Studio Code.
+    - Instalação do "Extension Pack for Java" no VS Code.
+    - Teste de instalação: 'java -version' no terminal.
+
+1.4. Primeiro Programa Java: "Olá, Mundo!"
+    - Estrutura básica de uma classe Java: `public class NomeDaClasse { ... }`
+    - O método `main`: `public static void main(String[] args) { ... }`
+    - Saída de dados: `System.out.println("Olá, Mundo!");`
+    - Como compilar e executar um programa Java no VS Code.
+
+EXERCÍCIO:
+- Crie um novo projeto/arquivo Java no VS Code.
+- Crie um programa que imprima seu nome completo no console.
+
+---------------------------------------------------
+
+AULA 2: VARIÁVEIS E TIPOS DE DADOS
+
+2.1. O Conceito de Variável
+    - O que são variáveis: "caixas" para guardar informações.
+    - Declaração de variáveis: tipo nomeVariavel;
+    - Atribuição de valores: nomeVariavel = valor;
+
+2.2. Tipos de Dados Primitivos em Java
+    - Numéricos inteiros: `byte`, `short`, `int`, `long`.
+        - Foco em `int` (mais comum).
+    - Numéricos de ponto flutuante: `float`, `double`.
+        - Foco em `double` (mais comum, precisão dupla).
+    - Caractere: `char` (apenas um caractere entre aspas simples).
+    - Booleano: `boolean` (`true` ou `false`).
+
+2.3. Tipo de Dado String (Classe)
+    - Diferença entre tipos primitivos e classes.
+    - Declaração e uso de `String` (texto entre aspas duplas).
+    - Concatenação de Strings (`+`).
+
+2.4. Leitura de Dados do Usuário (Entrada de Dados)
+    - Introdução à classe `Scanner`.
+    - Importando `Scanner`: `import java.util.Scanner;`
+    - Criando um objeto `Scanner`: `Scanner entrada = new Scanner(System.in);`
+    - Métodos para ler diferentes tipos: `nextInt()`, `nextDouble()`, `nextLine()`.
+    - Boa prática: `entrada.close();`
+
+EXERCÍCIO:
+- Crie um programa que:
+    1. Peça ao usuário para digitar seu nome e sua idade.
+    2. Armazene o nome em uma variável `String` e a idade em uma variável `int`.
+    3. Imprima uma mensagem combinando as variáveis, por exemplo: "Olá, [Nome]! Você tem [Idade] anos."
+
+---------------------------------------------------
+
+AULA 3: OPERADORES
+
+3.1. Operadores Aritméticos
+    - Adição (`+`), Subtração (`-`), Multiplicação (`*`), Divisão (`/`), Módulo (`%`).
+    - Precedência de operadores (PEMDAS/Parênteses, Expoentes, Multiplicação/Divisão, Adição/Subtração).
+
+3.2. Operadores de Atribuição
+    - Atribuição simples (`=`).
+    - Atribuições compostas (`+=`, `-=`, `*=`, `/=`, `%=`).
+    - Incremento (`++`), Decremento (`--`).
+
+3.3. Operadores Relacionais (Comparação)
+    - Igual a (`==`), Diferente de (`!=`).
+    - Maior que (`>`), Menor que (`<`).
+    - Maior ou igual a (`>=`), Menor ou igual a (`<=`).
+    - O resultado é sempre um `boolean` (`true` ou `false`).
+
+3.4. Operadores Lógicos
+    - E Lógico (`&&`): Ambas as condições devem ser verdadeiras.
+    - OU Lógico (`||`): Pelo menos uma condição deve ser verdadeira.
+    - NÃO Lógico (`!`): Inverte o valor booleano.
+
+EXERCÍCIO:
+- Crie um programa que:
+    1. Peça ao usuário para digitar dois números.
+    2. Calcule e imprima a soma, subtração, multiplicação, divisão e o resto da divisão entre eles.
+    3. Verifique se o primeiro número é maior que o segundo e imprima `true` ou `false`.
+    4. Verifique se ambos os números são positivos e imprima `true` ou `false`.
+
+---------------------------------------------------
+
+AULA 4: ESTRUTURAS CONDICIONAIS (TOMADA DE DECISÃO)
+
+4.1. `if`
+    - Sintaxe básica: `if (condição) { // código se true }`
+    - Como usar operadores relacionais e lógicos nas condições.
+
+4.2. `if-else`
+    - Sintaxe: `if (condição) { // código se true } else { // código se false }`
+
+4.3. `if-else if-else`
+    - Para múltiplas condições.
+    - A ordem das condições é importante.
+
+4.4. `switch`
+    - Usado para múltiplas escolhas baseadas em um único valor (inteiro, char, String).
+    - A palavra-chave `break`.
+    - O caso `default`.
+
+EXERCÍCIO:
+- Implemente o "Verificador de Idade para Votação" do seu exercício anterior, usando `if-else if-else`.
+- Crie um programa que peça um dia da semana (número de 1 a 7) e use um `switch` para imprimir o nome do dia (1 = Domingo, 2 = Segunda, etc.).
+
+---------------------------------------------------
+
+AULA 5: ESTRUTURAS DE REPETIÇÃO (LAÇOS/LOOPS)
+
+5.1. `for`
+    - Quando o número de repetições é conhecido.
+    - Sintaxe: `for (inicialização; condição; incremento/decremento) { // código }`
+    - Exemplos: Contagem progressiva e regressiva.
+
+5.2. `while`
+    - Quando o número de repetições é incerto, repete enquanto uma condição for verdadeira.
+    - Cuidado com loops infinitos.
+
+5.3. `do-while`
+    - Similar ao `while`, mas garante que o bloco de código seja executado pelo menos uma vez.
+
+5.4. `break` e `continue`
+    - `break`: Interrompe a execução do loop.
+    - `continue`: Pula a iteração atual e vai para a próxima.
+
+EXERCÍCIO:
+- Implemente a "Tabuada Simples" do seu exercício anterior, usando um laço `for`.
+- Crie um programa que peça números ao usuário repetidamente até que ele digite 0. Ao final, imprima a soma de todos os números digitados (excluindo o 0). Use um laço `while`.
+
+---------------------------------------------------
+
+AULA 6: ARRAYS (VETORES)
+
+6.1. O que são Arrays
+    - Coleções de dados do mesmo tipo.
+    - Índices (posição dos elementos, começando do 0).
+
+6.2. Declaração e Inicialização de Arrays
+    - `tipo[] nomeArray;` ou `tipo nomeArray[];`
+    - `nomeArray = new tipo[tamanho];`
+    - Inicialização direta: `tipo[] nomeArray = {valor1, valor2, ...};`
+
+6.3. Acessando Elementos
+    - `nomeArray[indice]`.
+    - Propriedade `length` para o tamanho do array.
+
+6.4. Percorrendo Arrays com Loops
+    - `for` tradicional.
+    - `for-each` (loop aprimorado).
+
+EXERCÍCIO:
+- Crie um programa que:
+    1. Declare um array de 5 números inteiros.
+    2. Peça ao usuário para preencher esses 5 números.
+    3. Imprima todos os números do array.
+    4. Calcule e imprima a soma de todos os números no array.
+
+---------------------------------------------------
+
+PRÓXIMOS PASSOS (TÓPICOS AVANÇADOS):
+- Métodos (Funções)
+- Classes e Objetos (Programação Orientada a Objetos - POO)
+- Herança, Polimorfismo, Encapsulamento
+- Coleções (ArrayList, HashMap, etc.)
+- Tratamento de Exceções
+- Entrada e Saída de Arquivos
