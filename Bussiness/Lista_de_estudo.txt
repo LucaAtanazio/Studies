@@ -1,0 +1,47 @@
+--- CRONOGRAMA DE AULAS: BUSINESS INTELLIGENCE (2025/2) ---
+
+1. BI: Definição, Importância e Tomada de Decisão (Aulas 1 e 2)
+    * Diferença entre dados, informação e conhecimento.
+    * Impacto da informação na competitividade.
+
+2. Indicadores e Estatística Descritiva Aplicada a BI (Aulas 3 e 4)
+    * Conceito de tomada de decisão baseada em dados.
+    * KPIs e métricas organizacionais.
+    * Medidas de tendência central e dispersão.
+
+3. Arquitetura de BI e Python para Análise de Dados (Aulas 5 a 8)
+    * Componentes de um sistema de BI.
+    * Exploração de bases de dados abertas (Kaggle, IBGE, IMB-BDE Goiás).
+    * Manipulação de dados com Pandas e NumPy.
+    * Gráficos com Matplotlib, Seaborn e Plotly.
+
+4. Coleta, Limpeza e Tratamento de Dados (Aulas 8 a 12)
+    * Importação de arquivos CSV, Excel e JSON.
+    * Tratamento de valores ausentes e outliers.
+    * Normalização e padronização de dados.
+    * Aplicação de estatística descritiva.
+
+5. Modelagem de Dados para BI e SQL (Aulas 13 e 14)
+    * Modelagem dimensional (Estrela e Floco de Neve).
+    * Implementação de consultas SQL básicas.
+
+6. Ferramentas de ETL com Python (Aulas 15 a 18)
+    * Prática em ferramentas de Extract, Transform, Load (ETL) utilizando Python.
+
+7. Probabilidade e Distribuições de Dados (Aulas 19 e 20)
+    * Distribuições normal, binomial e Poisson.
+    * Aplicações de probabilidade em análise de negócios.
+
+8. Regressão e Previsão (Aulas 21 e 22)
+    * Modelos de regressão linear e múltipla.
+
+9. Machine Learning para BI (Aulas 23 e 24)
+    * Algoritmos básicos de Machine Learning (KNN, Regressão Logística).
+
+10. Visualização de Dados e Dashboards com Python (Aulas 25 a 27)
+    * Conceitos e boas práticas para dashboards.
+    * Construção de dashboards com Python.
+
+11. Estudo de Caso Real e Implementação do Projeto (Aulas 28 a 32)
+    * Desenvolvimento de um pipeline completo (ETL + Análise + Dashboard).
+    * Apresentação e avaliação dos projetos.

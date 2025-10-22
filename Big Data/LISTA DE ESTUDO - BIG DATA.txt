@@ -1,0 +1,45 @@
+LISTA DE ESTUDO - UNIDADE CURRICULAR: BIG DATA E DATA SCIENCE
+
+I. INTRODUÇÃO E FUNDAMENTOS DE BIG DATA
+	Conceitos de Big Data e os 5 V's (Volume, Velocidade, Variedade, Veracidade, Valor)
+	Manipulação de volume de dados massivos
+	Data Lake, Data Warehouse e Data Mart
+	Conceitos Introdutórios: Hadoop, Spark, NoSQL, Cloud
+
+II. ARQUITETURA E GOVERNANÇA DE BIG DATA
+	Arquitetura Lambda e Kappa
+	Tecnologias: Hadoop, Spark, NoSQL (expansão)
+	Uso de Cloud para armazenamento e processamento (Mongodb Atlas)
+	ETL vs. ELT e Pipelines de dados distribuídos
+	Qualidade e Governança de Dados (DMBOK)
+	Aplicações Reais: Indústria 4.0, Saúde, Finanças, Cidades Inteligentes
+	Machine Learning e Tendências em Big Data
+
+III. INTRODUÇÃO E FLUXO DA CIÊNCIA DE DADOS
+	Conceitos de Ciência de Dados e Aplicações
+	Diferença entre Ciência de Dados, Análise, Engenharia e Machine Learning
+	Fluxo de um projeto de dados (CRISP-DM)
+	Ambiente de trabalho (Jupyter/Colab) e manipulação com Python/Pandas
+
+IV. PROCESSAMENTO E ANÁLISE EXPLORATÓRIA
+	Coleta de Dados: Fontes (APIs, web scraping) e Tipos de Dados
+	Limpeza de Dados: Tratamento de dados faltantes, duplicados e inconsistentes
+	Análise Exploratória de Dados (EDA)
+	Estatística para Dados: Tendência central, dispersão, correlação, amostragem
+	Visualização de Dados (Matplotlib, Seaborn)
+
+V. MACHINE LEARNING FUNDAMENTAL
+	Conceitos Básicos de Machine Learning (features, labels, treino/teste)
+	Aprendizado Supervisionado vs. Não Supervisionado
+	Modelagem: Regressão Linear e Logística (Scikit-learn)
+	Métricas de Avaliação: Accuracy, MSE, Matriz de Confusão, F1-score
+	Tópicos Avançados: Overfitting e Underfitting
+	Classificação (Árvore de decisão, KNN)
+	Agrupamento (K-Means) e Redução de Dimensionalidade (PCA)
+
+FONTES DE REFERÊNCIA PRINCIPAIS:
+	FOREMAN, John W. Data Smart: usando Data Science para transformar informação em insight.
+	SILVA, Luiz F C.; RIVA, Aline D.; ROSA, Gabriel A.; et al. Banco de Dados Não Relacional.
+	VIDA, Edinilson da S.; ALVES, Nicolli S R.; FERREIRA, Rafael G C.; et al. Data warehouse.
+	HUA, Chew C. Inteligência Artificial, Análise e Ciência de Dados: Conceitos fundamentais e modelos.
+	MACHADO, Felipe Nery Rodrigues. Tecnologia e projeto de data warehouse: uma visão multidimensional.
