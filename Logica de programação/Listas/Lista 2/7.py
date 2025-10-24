@@ -1,7 +1,9 @@
-#  7. Implemente uma função que resolva a equação de segundo grau (ax2 + bx + c = 0) e retorne as raízes.
-#      x1, x2 = [-b +- V{ b² - 4ac }] / 2a
-#        Entrada: a = 1, b = -3, c = 2
-#        Resultado: x1 = 2, x2 = 1
+"""
+7. Implemente uma função que resolva a equação de segundo grau (ax2 + bx + c = 0) e retorne as raízes.
+      x1, x2 = [-b +- V{ b² - 4ac }] / 2a
+        Entrada: a = 1, b = -3, c = 2
+        Resultado: x1 = 2, x2 = 1
+"""
 import math
 a = int(input("a = "))
 b = int(input("b = "))

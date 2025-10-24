@@ -1,6 +1,7 @@
-#4. Faça um programa que receba duas notas, calcule e mostre a média ponderada 
-#   dessas notas, considerando peso 7 para a primeira e peso 3 para a segunda
-
+"""
+4. Faça um programa que receba duas notas, calcule e mostre a média ponderada 
+   dessas notas, considerando peso 7 para a primeira e peso 3 para a segunda
+"""
 nota1 = float(input("Digite a sua 1° nota: "))
 nota1 = nota1 * 7
 
