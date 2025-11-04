@@ -39,12 +39,16 @@
 </p>
 
 ---
-##  Projetos Destacados
 
-- **1. Projeto integrador - Monitoramento Inteligente de Qualidade de Frutas (Hortifrúti IoT):** Demonstra aplicação prática de IoT para qualidade.
-- **2. Integração Memcached via Pyhton:** Foco em otimização de performance e caching de dados.
-- **3. QR Code Reader:** Projeto de utilidade ou processamento de imagens/dados.
-- **4. Tratamento e filtragens de Criptomoedas no Pyspark, Pandas / Leitura no PostgreSQL:** Uso de habilidades em Big Data, processamento distribuído (*Pyspark*) e persistência de dados (*PostgreSQL*).
+## Projetos Destacados presentes em [Group_Projects-FATESG](https://github.com/LucaAtanazio/Group_Projects-FATESG)
+
+- **1. [Projeto integrador - Monitoramento Inteligente de Qualidade de Frutas (Hortifrúti IoT)](https://github.com/LucaAtanazio/Group_Projects-FATESG/tree/main/PI):** Demonstra aplicação prática de IoT, sensores e coleta de dados para garantia de qualidade.
+
+- **2. [Integração Memcached via Pyhton](https://github.com/LucaAtanazio/Group_Projects-FATESG/tree/main/DataBase_NoSQL/Integra%C3%A7%C3%A3o%20Memcached%20via%20Pyhton):** Foco em otimização de performance, *caching* de dados e redução de latência com a integração Python/Memcached.
+
+- **3. [QR Code Reader](https://github.com/LucaAtanazio/Group_Projects-FATESG/tree/main/Bussiness/Projeto%20-%20Qr%20Code):** Projeto que envolve processamento de imagens e utilidade de dados para leitura e decodificação de códigos QR.
+
+- **4. [Tratamento e filtragens de Criptomoedas no Pyspark, Pandas / Leitura no PostgreSQL](https://github.com/LucaAtanazio/Group_Projects-FATESG/tree/main/BigData/TRABALHO-FINAL):** Pipeline de *Data Engineering* para ingestão, transformação com **Pyspark** e **Pandas**, e persistência final em **PostgreSQL**.
 
 ---
 
